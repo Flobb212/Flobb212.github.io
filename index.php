@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="style.css">
-<header>
-  <h1>Tom Fletcher-Lobb</h1>
-</header>
+
+<?php include("includes/header.html");?>
 
 <body>
   <h1>Hello World</h1>
   <p>I'm hosted with GitHub Pages.</p>
 
-<div class = "container">
-  <div class = "row">
-    <div class = "col-md">
-      <p>Content</p>
+  <div class = "container">
+    <div class = "item">
+      <p>Content A</p>
     </div>
-    <div class = "col-md">
-      <p>Content</p>
+    <div class = "item">
+      <p>Content B</p>
+    </div>
+    <div class = "item">
+      <p>Content C</p>
     </div>
   </div>
-</div>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>

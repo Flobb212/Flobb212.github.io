@@ -1,16 +1,24 @@
 header{
-
+  display: flex;
+  justify-content: space-between;
   text-align: center;
   font-size: 1.5vw;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
-  padding: 1px;
+  background-color: red;  
+}
+
+.name{
+
+}
+
+.social{
+
 }
 
 body{
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 h1{
@@ -18,17 +26,28 @@ h1{
 }
 
 p{
-  color: blue;
+  color: lightblue;
 }
 
-#left{
-  width: 50%;
-  margin-right: auto;
-  background-color: yellow;
-}
-
-#right{
-  width: 50%;
+.container{
+  width: 60%;
   margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.item{
   background-color: green;
+  flex-grow: 1;
+  min-width: 46%;
+  max-width: 46%;
+  height: inherit;
+  text-align: center;
+  padding: 0.2em;
+  margin: 0.4em;
 }
