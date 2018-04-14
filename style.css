@@ -1,19 +1,27 @@
 header{
   display: flex;
   justify-content: space-between;
-  text-align: center;
   font-size: 1.5vw;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;  
+  background-color: red;
+}
+header img{
+ cursor: pointer;
+ max-width: 80px;
+ top: 50%;
 }
 
 .name{
-
+  text-align: left;
+  padding-left: 5%;
+  background-color: red;
 }
 
 .social{
 
+  text-align: right;
+  background-color: red;
 }
 
 body{
@@ -31,8 +39,6 @@ p{
 
 .container{
   width: 60%;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
